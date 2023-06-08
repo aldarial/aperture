@@ -154,3 +154,82 @@ header nav li:last-of-type a {
     background-color: black;
     margin-right: 6px;
 }
+.sunset{
+    background-image: url("../images/sunset.jpg");
+    background-size: cover;
+min-height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 60px;
+}
+.monstera{
+    background-image: url("../images/monstera.jpg");
+}
+.himalayas{
+    background-image: url("../images/himalayas.jpg");
+}
+.sunset article{
+    max-width: 300px;
+}
+.sunset article h4{
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.sunset article p{
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.clients{
+    padding: 113px 0 140px;
+    background-color: black;
+}
+.clients .container{
+    max-width: 1168px;
+    margin: auto;
+}
+.clients h2{
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    /* identical to box height, or 105% */
+    text-align: center;
+    color: #FFFFFF;
+}
+.clients h3{
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height, or 125% */
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 82px;
+}
+.clients .flex_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.clients .flex_block a{
+    display: inline-block;
+    margin: 0 10px;
+    max-width: 128px;
+}
+.clients .flex_block a img{
+    display: block;
+    width: 100%;
+}
