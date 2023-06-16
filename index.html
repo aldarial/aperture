@@ -66,6 +66,12 @@
                 posuere.
             </p>
         </article>
+        <ul class="bottom_icons">
+            <li>1/2000s</li>
+            <li>f/11</li>
+            <li>100</li>
+            <li>Iceland</li>
+        </ul>
     </section>
     <section class="sunset">
         <article>
@@ -141,16 +147,17 @@
 </main>
 <footer>
     <div class="container">
-        <div class="logo">
-            <a href="#">
-                <img src="images/hillehayes.svg" alt="client">
-            </a>
-            <p>
-                Photographers & videographers capturing the world around us.
-            </p>
-        </div>
-        <div class="links">
-                <ul>
+        <div class="part1">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.svg" alt="client">
+                </a>
+                <p>
+                    Photographers & videographers capturing the world around us.
+                </p>
+            </div>
+            <div class="links">
+                <ul class="areas">
                     <li>
                         Business areas
                     </li>
@@ -175,7 +182,7 @@
                         </a>
                     </li>
                 </ul>
-                <ul>
+                <ul class="pages">
                     <li>
                         Pages
                     </li>
@@ -210,26 +217,28 @@
                         </a>
                     </li>
                 </ul>
+            </div>
         </div>
-        <div class="container">
+        <div class="part2">
             <div class="subscribe">
                 <h3>Subscribe to our newsletter</h3>
                 <p>Read about all the things we do.</p>
             </div>
-            <form name="subscribe" action="#" method="post">
-                <label for="subscribe"></label>
+            <form class="subscribeForm" name="subscribe" action="#" method="post">
+                <label for="subscribe" style="display: none"></label>
                 <input type="text" name="E-Mail"
                        placeholder="E-Mail"
                        id="subscribe">
-                <input type="submit" value="subscribe">
+                <button type="submit">Subscribe</button>
             </form>
         </div>
-        <div class="bottom">
-            <div>
-                <p>© Aperture Photography, Inc. All rights reserved.</p>
-                <a href="#">
-                    Licensing.
-                </a>
+        <div class="part3">
+            <div class="copyrights">
+                <p>© Aperture Photography, Inc. All rights reserved.
+                    <a href="#">
+                        Licensing.
+                    </a>
+                </p>
             </div>
             <div class="socialnetwork">
                 <a href="#">
