@@ -66,7 +66,6 @@ header nav li:last-of-type a {
     letter-spacing: 0.4px;
     color: #000000;
     padding: 11px 20px;
-
 }
 
 .main_screen {
@@ -355,6 +354,7 @@ footer .container {
     justify-content: space-between;
     border-bottom: 2px solid #FFFFFF;
 }
+
 form {
     display: flex;
     width: 458px;
@@ -402,6 +402,7 @@ form button {
     color: #C0C0C0;
     justify-content: flex-start;
 }
+
 .copyrights a {
     text-decoration: none;
     font-family: 'poppinsregular';
@@ -411,6 +412,7 @@ form button {
     line-height: 20px;
     color: #C0C0C0;
 }
+
 .socialnetwork a {
     text-decoration: none;
     font-family: 'poppinsregular';
@@ -463,4 +465,122 @@ form button {
 .bottom_icons li:last-of-type:before {
     background-image: url("../images/icon_4.svg");
     width: 10px;
+}
+
+.specializations {
+    margin: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 112px;
+    padding-bottom: 100px;
+}
+
+.specializations .container {
+    max-width: 1168px;
+    margin: auto;
+}
+
+.specializations .container h2 {
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.specializations .container h3 {
+    padding-top: 15px;
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    padding-bottom: 42px;
+}
+
+.servises {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product, .architecture, .drone, .wildlife {
+    display: block;
+    width: 100%;
+    max-width: 576px;
+    height: 600px;
+    margin-bottom: 16px;
+}
+.product {
+    background-image: url("../images/product.jpg");
+}
+
+.architecture {
+    background-image: url("../images/architecture.jpg");
+}
+
+.drone {
+    background-image: url("../images/drone.jpg");
+}
+
+.wildlife {
+    background-image: url("../images/wildlife.jpg");
+}
+.servises article {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.servises h4{
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+.servises p {
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    padding-bottom: 17px;
+}
+.servises a{
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    display: inline-flex;
+    text-align: center;
+    text-decoration: none;
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 5px 10px 5px 4px;
+}
+.servises a:before {
+    display: inline-block;
+    content: "";
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 6px;
+}
+.servises div{
+    margin: auto;
+    max-width: 516px;
+    padding-bottom: 30px;
 }
