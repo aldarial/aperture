@@ -468,12 +468,7 @@ form button {
 }
 
 .specializations {
-    margin: auto;
     background-color: black;
-    display: flex;
-    justify-content: center;
-    padding-top: 112px;
-    padding-bottom: 100px;
 }
 
 .specializations .container {
@@ -487,7 +482,6 @@ form button {
     font-weight: 400;
     font-size: 40px;
     line-height: 42px;
-    text-align: center;
     color: #FFFFFF;
 }
 
@@ -498,43 +492,44 @@ form button {
     font-weight: 400;
     font-size: 23px;
     line-height: 30px;
-    text-align: center;
     color: #C0C0C0;
-    padding-bottom: 42px;
+    margin-bottom: 42px;
+}
+
+.specializations .container h2,
+.specializations .container h3 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .servises {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-}
-.product, .architecture, .drone, .wildlife {
-    display: block;
-    width: 100%;
-    max-width: 576px;
-    height: 600px;
-    margin-bottom: 16px;
-}
-.product {
-    background-image: url("../images/product.jpg");
+    justify-content: center;
+    padding-bottom: 100px;
+    max-width: 1168px;
+    margin: auto;
+    gap: 16px;
 }
 
-.architecture {
-    background-image: url("../images/architecture.jpg");
-}
-
-.drone {
-    background-image: url("../images/drone.jpg");
-}
-
-.wildlife {
-    background-image: url("../images/wildlife.jpg");
-}
 .servises article {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-end;
+    position: relative;
+    width: calc(50% - 8px);
 }
+
+.servises .content {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    display: inline-block;
+}
+
+.servises .image {
+    width: 100%;
+    display: block;
+}
+
 .servises h4{
     font-family: 'poppinsregular';
     font-style: normal;
@@ -545,8 +540,10 @@ form button {
     text-transform: uppercase;
     color: #FFFFFF;
     padding-bottom: 10px;
+
 }
-.servises p {
+
+ .servises p {
     font-family: 'poppinsregular';
     font-style: normal;
     font-weight: 400;
@@ -555,7 +552,8 @@ form button {
     color: #C0C0C0;
     padding-bottom: 17px;
 }
-.servises a{
+
+.servises a {
     font-family: 'poppinsregular';
     font-style: normal;
     font-weight: 400;
@@ -570,6 +568,7 @@ form button {
     border-radius: 14px;
     padding: 5px 10px 5px 4px;
 }
+
 .servises a:before {
     display: inline-block;
     content: "";
@@ -579,7 +578,8 @@ form button {
     background-color: black;
     margin-right: 6px;
 }
-.servises div{
+
+.servises div {
     margin: auto;
     max-width: 516px;
     padding-bottom: 30px;
