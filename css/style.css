@@ -105,7 +105,124 @@ header nav li:last-of-type a {
     text-align: center;
     color: #C0C0C0;
 }
+.specializations {
+    background-color: black;
+}
 
+.specializations .container {
+    padding-top: 112px;
+    max-width: 1168px;
+    margin: auto;
+}
+
+.specializations .container h2 {
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.specializations .container h3 {
+    padding-top: 15px;
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+}
+
+.specializations .container h2,
+.specializations .container h3 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.servises {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 100px;
+    max-width: 1168px;
+    margin: auto;
+    gap: 16px;
+}
+
+.servises article {
+    position: relative;
+    width: calc(50% - 8px);
+}
+
+.servises .content {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    display: inline-block;
+}
+
+.servises .image {
+    width: 100%;
+    display: block;
+}
+
+.servises h4{
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+
+}
+
+.servises p {
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    padding-bottom: 17px;
+}
+
+.servises a {
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    display: inline-flex;
+    text-align: center;
+    text-decoration: none;
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 5px 10px 5px 4px;
+}
+
+.servises a:before {
+    display: inline-block;
+    content: "";
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 6px;
+}
+
+.servises div {
+    margin: auto;
+    max-width: 516px;
+    padding-bottom: 30px;
+}
 .section {
     margin: auto;
     text-align: center;
@@ -467,120 +584,3 @@ form button {
     width: 10px;
 }
 
-.specializations {
-    background-color: black;
-}
-
-.specializations .container {
-    max-width: 1168px;
-    margin: auto;
-}
-
-.specializations .container h2 {
-    font-family: 'poppinsregular';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 42px;
-    color: #FFFFFF;
-}
-
-.specializations .container h3 {
-    padding-top: 15px;
-    font-family: 'poppinsregular';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 30px;
-    color: #C0C0C0;
-    margin-bottom: 42px;
-}
-
-.specializations .container h2,
-.specializations .container h3 {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.servises {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-bottom: 100px;
-    max-width: 1168px;
-    margin: auto;
-    gap: 16px;
-}
-
-.servises article {
-    position: relative;
-    width: calc(50% - 8px);
-}
-
-.servises .content {
-    position: absolute;
-    bottom: 30px;
-    left: 30px;
-    display: inline-block;
-}
-
-.servises .image {
-    width: 100%;
-    display: block;
-}
-
-.servises h4{
-    font-family: 'poppinsregular';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    padding-bottom: 10px;
-
-}
-
- .servises p {
-    font-family: 'poppinsregular';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    color: #C0C0C0;
-    padding-bottom: 17px;
-}
-
-.servises a {
-    font-family: 'poppinsregular';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 32px;
-    letter-spacing: 0.4px;
-    color: #000000;
-    display: inline-flex;
-    text-align: center;
-    text-decoration: none;
-    background: #FFFFFF;
-    border-radius: 14px;
-    padding: 5px 10px 5px 4px;
-}
-
-.servises a:before {
-    display: inline-block;
-    content: "";
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    background-color: black;
-    margin-right: 6px;
-}
-
-.servises div {
-    margin: auto;
-    max-width: 516px;
-    padding-bottom: 30px;
-}
