@@ -584,3 +584,7 @@ form button {
     width: 10px;
 }
 
+.owl-stage{
+    display: flex;
+    align-items: center;
+}
