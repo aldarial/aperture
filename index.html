@@ -12,11 +12,23 @@
     <link rel="icon" type="image/x-icon" href="images/logo.svg">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 
 </head>
 <body>
+<div id="dialog" title="Get template">
+    <p>Enter your Email and we will send you templates for free</p>
+    <form class="Email" name="Email" action="#" method="post">
+        <label for="Email" style="display: none"></label>
+        <input type="text" name="E-Mail"
+               placeholder="E-Mail"
+               id="Email">
+        <button type="submit">Send</button>
+    </form>
+</div>
 <header>
     <div class="container">
         <a href="#">
@@ -45,7 +57,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#" id="opener">
                         Get template
                     </a>
                 </li>
@@ -164,6 +176,21 @@
                 Trusted by your favourite companies
             </h3>
             <div class="flex_block owl-carousel">
+                <a href="#">
+                    <img src="images/hillehayes.svg" alt="client">
+                </a>
+                <a href="#">
+                    <img src="images/riksgrasen.svg" alt="client">
+                </a>
+                <a href="#">
+                    <img src="images/studiocai.svg" alt="client">
+                </a>
+                <a href="#">
+                    <img src="images/chillindusties.svg" alt="client">
+                </a>
+                <a href="#">
+                    <img src="images/stockholm.svg" alt="client">
+                </a>
                 <a href="#">
                     <img src="images/hillehayes.svg" alt="client">
                 </a>
@@ -318,6 +345,7 @@
 </footer>
 <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 <script src="js/owl.carousel.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 <script src="js/scripts.js"></script>
 </body>
 </html>

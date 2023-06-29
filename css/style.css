@@ -499,6 +499,7 @@ form button {
     border: none;
     margin-left: auto;
     margin-right: 6px;
+    color: transparent;
 }
 
 .part3 {
@@ -588,3 +589,120 @@ form button {
     display: flex;
     align-items: center;
 }
+.clients .owl-item{
+    text-align: center;
+}
+.clients .owl-nav .owl-prev{
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -36px;
+    top: 36px;
+    transform: rotate(90deg);
+
+}
+.clients .owl-nav .owl-prev:before {
+    content: "";
+    width: 0;
+    height: 0;
+
+    position: absolute;
+    border-bottom: solid 48px transparent;
+    border-top: solid 48px white;
+    border-left: solid 48px transparent;
+    border-right: solid 48px transparent;
+    top: -49px;
+    left: -48px;
+}
+.clients .owl-nav .owl-next {
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: -36px;
+    top: 36px;
+    transform: rotate(-90deg);
+}
+.clients .owl-nav .owl-next:before {
+    content: "";
+    width: 0;
+    height: 0;
+
+    position: absolute;
+    border-bottom: solid 48px transparent;
+    border-top: solid 48px white;
+    border-left: solid 48px transparent;
+    border-right: solid 48px transparent;
+    top: -49px;
+    right: -48px;
+}
+.ui-widget.ui-widget-content{
+    width: 500px !important;
+    background-color: black;
+    color: #FFFFFF;
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-top-left-radius: 14px;
+}
+.ui-corner-all{
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.ui-dialog .ui-dialog-title {
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.ui-widget.ui-widget-content {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.ui-dialog .ui-dialog-titlebar-close {
+    width: 30px;
+}
+ p{
+     font-family: 'poppinsregular';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 20px;
+    color: #FFFFFF;
+     padding-top: 10px;
+     padding-bottom: 15px;
+}
+.Email {
+    display: flex;
+    width: 465px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+}
+
+.Email input {
+    visibility: hidden;
+}
+
+.Email input:focus {
+    outline: none;
+}
+
+.Email button {
+    width: 63px;
+    height: 30px;
+    background: #000000;
+    border-radius: 11px;
+    border: none;
+    margin-left: auto;
+    margin-right: 6px;
+    color: white;
+}
+
+

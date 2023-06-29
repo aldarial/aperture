@@ -211,5 +211,15 @@
         display: flex;
         flex-direction: column;
     }
+    form button {
+        width: 45px;
+        color: transparent;
+    }
+    form {
+        height: 40px;
+    }
+    .part3 {
+        padding: 10px;
+    }
 }
 
