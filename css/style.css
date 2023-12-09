@@ -21,6 +21,11 @@ header {
     padding: 24px 0;
 }
 
+header .logo {
+    position: relative;
+    z-index: 99;
+}
+
 header .container {
     max-width: 1200px;
     margin: auto;
@@ -105,6 +110,7 @@ header nav li:last-of-type a {
     text-align: center;
     color: #C0C0C0;
 }
+
 .specializations {
     background-color: black;
 }
@@ -169,7 +175,7 @@ header nav li:last-of-type a {
     display: block;
 }
 
-.servises h4{
+.servises h4 {
     font-family: 'poppinsregular';
     font-style: normal;
     font-weight: 400;
@@ -223,6 +229,7 @@ header nav li:last-of-type a {
     max-width: 516px;
     padding-bottom: 30px;
 }
+
 .section {
     margin: auto;
     text-align: center;
@@ -284,7 +291,83 @@ header nav li:last-of-type a {
     align-items: center;
     padding-right: 60px;
 }
+.gear_cage {
+    background-color: black;
+    position: relative;
+    min-height: 540px;
+}
+.gear_cage .container {
+    max-width: 1168px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.gear_cage article {
+    align-items: flex-start;
+    flex-direction: column;
+    width: 720px;
+}
+
+.gear_cage article h4 {
+    font: 400 14px/20px 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    padding-top: 25%;
+    margin-bottom: 6px;
+}
+
+.gear_cage article h3 {
+    font: 400 28px/32px 'Poppins', sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.gear_cage article p {
+    width: 504px;
+    font: 400 14px/20px 'Poppins', sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+
+.gear_cage article a {
+    font: 400 16px/32px 'Poppins', sans-serif;
+    font-style: normal;
+    color: #000000;
+    display: inline-flex;
+    text-align: center;
+    text-decoration: none;
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 5px 10px 5px 4px;
+}
+
+.gear_cage article a:before {
+    display: inline-block;
+    content: "";
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 6px;
+}
+
+.gear_cage .right_side {
+    min-height: 540px;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/tools.jpg");
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .monstera {
     background-image: url("../images/monstera.jpg");
 }
@@ -437,6 +520,7 @@ footer .container {
 
 .areas li, .pages li {
     margin-bottom: 10px;
+    list-style: none;
 }
 
 .links ul li a {
@@ -585,22 +669,24 @@ form button {
     width: 10px;
 }
 
-.owl-stage{
+.owl-stage {
     display: flex;
     align-items: center;
 }
-.clients .owl-item{
+
+.clients .owl-item {
     text-align: center;
 }
-.clients .owl-nav .owl-prev{
+
+.clients .owl-nav .owl-prev {
     width: 0;
     height: 0;
     position: absolute;
     left: -36px;
     top: 36px;
     transform: rotate(90deg);
-
 }
+
 .clients .owl-nav .owl-prev:before {
     content: "";
     width: 0;
@@ -614,6 +700,7 @@ form button {
     top: -49px;
     left: -48px;
 }
+
 .clients .owl-nav .owl-next {
     width: 0;
     height: 0;
@@ -622,6 +709,7 @@ form button {
     top: 36px;
     transform: rotate(-90deg);
 }
+
 .clients .owl-nav .owl-next:before {
     content: "";
     width: 0;
@@ -635,7 +723,8 @@ form button {
     top: -49px;
     right: -48px;
 }
-.ui-widget.ui-widget-content{
+
+.ui-widget.ui-widget-content {
     width: 500px !important;
     background-color: black;
     color: #FFFFFF;
@@ -644,7 +733,8 @@ form button {
     border-top-right-radius: 14px;
     border-top-left-radius: 14px;
 }
-.ui-corner-all{
+
+.ui-corner-all {
     color: #FFFFFF;
     background-color: rgba(0, 0, 0, 0.7);
     border-bottom-right-radius: 12px;
@@ -652,6 +742,7 @@ form button {
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
 }
+
 .ui-dialog .ui-dialog-title {
     font-family: 'poppinsregular';
     font-style: normal;
@@ -659,22 +750,26 @@ form button {
     font-size: 14px;
     line-height: 20px;
 }
+
 .ui-widget.ui-widget-content {
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 .ui-dialog .ui-dialog-titlebar-close {
     width: 30px;
 }
- p{
-     font-family: 'poppinsregular';
-     font-style: normal;
-     font-weight: 400;
-     font-size: 14px;
-     line-height: 20px;
+
+p {
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
     color: #FFFFFF;
-     padding-top: 10px;
-     padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
+
 .Email {
     display: flex;
     width: 465px;

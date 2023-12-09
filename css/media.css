@@ -23,6 +23,15 @@
     header nav ul li a {
         font-size: 8px;
     }
+
+}
+.gear_cage article {
+    margin-left: 20px;
+}
+
+.gear_cage article p {
+    width: 360px;
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -95,19 +104,25 @@
         justify-content: space-around;
     }
     header nav ul li {
-        margin-left: 3px;
+        margin-left: 0px;
     }
 
     header nav li:first-of-type a {
         font-size: 10px;
+        margin-right: 0px;
     }
-
+    header nav ul li:first-of-type {
+        margin-right: 0px;
+    }
     header nav li:last-of-type a {
         font-size: 8px;
         padding: 3px 8px;
     }
     header nav ul li:last-of-type {
-        margin-right: 3px;
+        margin-right: 0px;
+    }
+    .nav-but-wrap{
+        display: inline-block;
     }
     .main_screen article h3 {
        font-size: 8px;
@@ -221,5 +236,137 @@
     .part3 {
         padding: 10px;
     }
+    .nav {
+        position: fixed;
+        z-index: 98;
+        top: 0;
+        left: 0;
+    }
+    .nav:before, .nav:after {
+        content: "";
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(20, 21, 26,0.6);
+        border-bottom-left-radius: 200%;
+        z-index: -1;
+        -webkit-transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
+        transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
+        transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
+        transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
+        -webkit-transform: translateX(100%) translateY(-100%);
+        transform: translateX(100%) translateY(-100%);
+    }
+    .nav:after {
+        background: rgba(9,9,12,1);
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s;
+    }
+    .nav:before {
+        -webkit-transition-delay: .2s;
+        transition-delay: .2s;
+    }
+    .nav__content {
+        position: fixed;
+        visibility: hidden;
+        top: 50%;
+        margin-top: 20px;
+        -webkit-transform: translate(0%, -50%);
+        transform: translate(0%, -50%);
+        width: 100%;
+        text-align: center;
+    }
+    .nav__list {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        z-index: 2;
+    }
+    .nav__list-item {
+        position: relative;
+        display: block;
+        -webkit-transition-delay: 0.8s;
+        transition-delay: 0.8s;
+        opacity: 0;
+        text-align: center;
+        color: #fff;
+        overflow: hidden;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 8vh;
+        font-weight: 900;
+        line-height: 1.15;
+        letter-spacing: 3px;
+        -webkit-transform: translate(100px, 0%);
+        transform: translate(100px, 0%);
+        -webkit-transition: opacity .2s ease, -webkit-transform .3s ease;
+        transition: opacity .2s ease, -webkit-transform .3s ease;
+        transition: opacity .2s ease, transform .3s ease;
+        transition: opacity .2s ease, transform .3s ease, -webkit-transform .3s ease;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .nav__list-item a{
+        position: relative;
+        text-decoration: none;
+        z-index: 2;
+        display: inline-block;
+        -webkit-transition: all 200ms linear;
+        transition: all 200ms linear;
+    }
+
+    .nav__list-item a:hover{
+        color: rgba(255,255,255,1);
+    }
+    .nav__list-item:last-of-type a:hover {
+        color:white;
+        background-color: rgba(255,255,255,0.6);;
+    }
+    .nav__list-item.active-nav a{
+        color: rgba(255,255,255,1);
+    }
+    .nav__list-item.active-nav a:after{
+        height: 4px;
+        opacity: 1;
+        left: 0;
+        width: 100%;
+    }
+}
+.gear_cage {
+    background-image: url("../images/tools.jpg");
+    align-items: center;
+    padding-top: 30%;
+}
+
+.gear_cage article {
+    width: 100%;
+}
+
+.gear_cage article p {
+    font-size: 12px;
+    padding-right: 0;
+}
+
+.gear_cage article h4 {
+    font-size: 12px;
+    padding-top: 0;
+}
+
+.gear_cage article h3 {
+    font-size: 16px;
+}
+
+.gear_cage article a {
+    font-size: 12px;
+    padding: 3px 5px 3px 2px;
+}
+
+.gear_cage article a:before {
+    margin-right: 3px;
+}
+
+.gear_cage .right_side {
+    background-image: none;
+    width: 100%;
+    height: 100%;
 }
 

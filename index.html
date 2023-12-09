@@ -6,14 +6,14 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Aperture</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="images/logo.svg">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
+
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="https://resources/demos/style.css">
+
+    <link rel="stylesheet" href="css/mobile_menu.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 
@@ -29,42 +29,33 @@
         <button type="submit">Send</button>
     </form>
 </div>
-<header>
-    <div class="container">
-        <a href="#">
-            <img src="images/logo.svg" alt="logo">
-        </a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">
-                        Business areas
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Featured images
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Gear cage
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Contact
-                    </a>
-                </li>
-                <li>
-                    <a href="#" id="opener">
-                        Get template
-                    </a>
-                </li>
-            </ul>
+
+<header class="cd-header">
+    <div class="header-wrapper container">
+        <a href="#" class="logo">
+         <img src="images/logo.svg" alt="image">
+            </a>
+        <div class="nav-but-wrap">
+            <div class="menu-icon hover-target">
+                <span class="menu-icon__line menu-icon__line-left"></span>
+                <span class="menu-icon__line"></span>
+                <span class="menu-icon__line menu-icon__line-right"></span>
+            </div>
+        </div>
+        <nav class="nav">
+            <div class="nav__content">
+                <ul class="nav__list">
+                    <li class="nav__list-item active-nav"><a href="#" class="hover-target">Business areas</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Featured images</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Gear cage</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Contact</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target" id="opener">Get template</a></li>
+                </ul>
+            </div>
         </nav>
     </div>
 </header>
+
 <main>
     <section class="main_screen">
         <article>
@@ -156,6 +147,26 @@
                 Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non.
             </p>
         </article>
+    </section>
+    <section class="gear_cage">
+        <div class="container">
+            <article>
+                <h4>The Gear Cage</h4>
+                <h3>The Tools That We Use.</h3>
+                <p>They say that "no place is boring if you've had a good night's sleep and have a pocket full of
+                    unexposed film". While we don't shoot (a lot) of film these days, these are the tools that we
+                    actually use every day to capture the amazing things around us.</p>
+                <a href="#">Check it out</a>
+            </article>
+            <div class="right_side">
+                <ul class="bottom_icons">
+                    <li>0.8"</li>
+                    <li>f/5.6</li>
+                    <li>100</li>
+                    <li>Sweden</li>
+                </ul>
+            </div>
+        </div>
     </section>
     <section class="sunset monstera">
         <article>
